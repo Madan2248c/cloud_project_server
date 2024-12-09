@@ -91,4 +91,5 @@ def get_headlines():
     return jsonify({"error": "No headlines found"}), 404
 
 if __name__ == '__main__':
-    app.run(port=3000)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=8080)
