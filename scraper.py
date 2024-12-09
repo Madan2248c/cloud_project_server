@@ -6,7 +6,8 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon')
 
 class NewsScraper:
-    def __init__(self, url):
+    def __init__(self, url): 
+        
         self.url = url
         self.headlines_dict = {}
         self.sid = SentimentIntensityAnalyzer()
