@@ -2,6 +2,7 @@ altair==5.4.1
 anyio==4.6.2.post1
 asttokens==2.4.1
 attrs==24.2.0
+bcrypt==4.2.1
 beautifulsoup4==4.12.3
 blinker==1.8.2
 build==1.2.2.post1
